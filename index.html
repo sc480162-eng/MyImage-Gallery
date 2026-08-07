@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS File -->
+    <link rel="stylesheet" href ="./style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>My Image Gallery</h1>
+    </header>
+
+    <!-- Gallery Container -->
+
+    <div class="gallery">
+        <img src="images/img1.jpg" alt="image 1">
+        <img src="images/img2.jpg" alt="image 2">
+        <img src="images/img3.jpg" alt="image 3">
+        <img src="images/img4.jpg" alt="image 4">
+        <img src="images/img5.jpg" alt="image 5">
+        <img src="images/img6.jpg" alt="image 6">
+    </div>
+
+    <!-- Lightbox (Hidden Initially) -->
+     <div class="lightbox">
+
+        <!-- class button -->
+         <span class="close">&times;</span>
+
+         <!-- large image -->
+          <img class="lightbox-img" src="" alt="Large Image">
+
+         <!-- Previous Button -->
+         <button class="prev">&#10094;</button>
+
+         <!-- Next Button -->
+          <button class="next">&#10095;</button>
+
+     </div>
+
+     <script src="./script.js"></script>
+</body>
+
+</html>
